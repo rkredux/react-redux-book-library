@@ -38,6 +38,7 @@ function mapStateToProps(state){
 
 
 function mapDispatchToProps(dispatch){
+	// console.log(dispatch, selectBook); 
 	return bindActionCreators({selectBook: selectBook}, dispatch); 
 }
 
